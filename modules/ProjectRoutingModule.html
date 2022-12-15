@@ -1,0 +1,232 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Techxers documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">techxers documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content module">
+                   <div class="content-data">
+
+
+
+<ol class="breadcrumb">
+    <li>Modules</li>
+    <li >ProjectRoutingModule</li>
+</ol>
+
+
+<ul class="nav nav-tabs" role="tablist">
+    <li  class="active" >
+        <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+    <li >
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/shared/pages/project/project-routing.module.ts</code>
+        </p>
+
+
+
+
+
+        <div class="container-fluid module">
+            <div class="row">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
+import { Routes, RouterModule } from &#x27;@angular/router&#x27;;
+import { BeneficiaryComponent } from &#x27;./beneficiary/beneficiary.component&#x27;;
+import { ShgComponent } from &#x27;./beneficiary/shg/shg.component&#x27;;
+import { BudgetComponent } from &#x27;./budget/budget.component&#x27;;
+import { DisbursementAddComponent } from &#x27;./disbursement/disbursement-add/disbursement-add.component&#x27;;
+import { DisbursementComponent } from &#x27;./disbursement/disbursement.component&#x27;;
+import { DocumentsAddComponent } from &#x27;./documents/documents-add/documents-add.component&#x27;;
+import { DocumentsComponent } from &#x27;./documents/documents.component&#x27;;
+import { AddComponent } from &#x27;./geo/add/add.component&#x27;;
+import { GeoComponent } from &#x27;./geo/geo.component&#x27;;
+import { HeadwiseAddComponent } from &#x27;./headwise/headwise-add/headwise-add.component&#x27;;
+import { HeadwiseComponent } from &#x27;./headwise/headwise.component&#x27;;
+import { AddtargetComponent } from &#x27;./indicators/addtarget/addtarget.component&#x27;;
+import { IndicatorsAddComponent } from &#x27;./indicators/indicators-add/indicators-add.component&#x27;;
+import { IndicatorsComponent } from &#x27;./indicators/indicators.component&#x27;;
+import { InterventionAddComponent } from &#x27;./interventions/intervention-add/intervention-add.component&#x27;;
+import { InterventionsComponent } from &#x27;./interventions/interventions.component&#x27;;
+import { PocAddComponent } from &#x27;./poc/poc-add/poc-add.component&#x27;;
+import { PocComponent } from &#x27;./poc/poc.component&#x27;;
+import { ProfileComponent } from &#x27;./profile/profile.component&#x27;;
+import { ProjectComponent } from &#x27;./project.component&#x27;;
+import { PdfComponent } from &#x27;./review/pdf/pdf.component&#x27;;
+import { ReviewAddComponent } from &#x27;./review/review-add/review-add.component&#x27;;
+import { ReviewComponent } from &#x27;./review/review.component&#x27;;
+
+const ROUTES: Routes &#x3D; [
+    { path: &#x27;list&#x27;, component: ProjectComponent, data:{title:&#x27;Projects&#x27;} },
+    { path: &#x27;profile&#x27;, component: ProfileComponent, data:{title:&#x27;Project Profile&#x27;,} },
+    { path: &#x27;edit-profile&#x27;, component: ProfileComponent, data:{title:&#x27;Edit Project profile&#x27;, flag:&quot;edit&quot;} },
+
+    { path: &#x27;intervention&#x27;, component: InterventionsComponent, data:{title:&#x27;Interventions&#x27;} },
+    { path: &#x27;add-intervention&#x27;, component: InterventionAddComponent, data:{title:&#x27;Add Interventions&#x27;} },
+    { path: &#x27;edit-intervention&#x27;, component: InterventionAddComponent, data:{title:&#x27;Edit Interventions&#x27;,flag:&quot;edit&quot;} },
+    
+
+    { path: &#x27;geo-coverage&#x27;, component: GeoComponent, data:{title:&#x27;Geo Coverage&#x27;} },
+    { path: &#x27;add-geo-coverage&#x27;, component: AddComponent, data:{title:&#x27;Add Geo Coverage&#x27;} },
+    { path: &#x27;edit-geo-coverage&#x27;, component: AddComponent, data:{title:&#x27;Edit Geo Coverage&#x27;} },
+
+    { path: &#x27;coverage/crp&#x27;, component: BeneficiaryComponent, data:{title:&#x27;crps Promoted&#x27;} },
+    { path: &#x27;coverage/shg&#x27;, component: ShgComponent, data:{title:&#x27;SHG Members to be covered&#x27;} },
+
+    { path: &#x27;indicators&#x27;, component: IndicatorsComponent, data:{title:&#x27;Indicators&#x27;} },
+    { path: &#x27;add-indicators&#x27;, component: IndicatorsAddComponent, data:{title:&#x27;Add Indicators&#x27;} },
+    { path: &#x27;add-target&#x27;, component: AddtargetComponent, data:{title:&#x27;Add target&#x27;} },
+    { path: &#x27;edit-indicators&#x27;, component: IndicatorsAddComponent, data:{title:&#x27;Edit Indicators&#x27;} },
+
+    { path: &#x27;budget&#x27;, component: BudgetComponent, data:{title:&#x27;Budget&#x27;} },
+
+    { path: &#x27;headwise&#x27;, component: HeadwiseComponent, data:{title:&#x27;Headwise&#x27;} },
+    { path: &#x27;add-headwise&#x27;, component: HeadwiseAddComponent, data:{title:&#x27;Add Headwise&#x27;} },
+    { path: &#x27;edit-headwise&#x27;, component: HeadwiseAddComponent, data:{title:&#x27;Edit Headwise&#x27;} },
+
+    { path: &#x27;disbursement&#x27;, component: DisbursementComponent, data:{title:&#x27;Disburesment&#x27;} },
+    { path: &#x27;add-disbursement&#x27;, component: DisbursementAddComponent, data:{title:&#x27;Add Disburesment&#x27;} },
+    { path: &#x27;edit-disbursement&#x27;, component: DisbursementAddComponent, data:{title:&#x27;Edit Disburesment&#x27;} },
+
+    { path: &#x27;documents&#x27;, component: DocumentsComponent, data:{title:&#x27;Documents&#x27;} },
+    { path: &#x27;add-documents&#x27;, component: DocumentsAddComponent, data:{title:&#x27;Add Documents&#x27;} },
+    { path: &#x27;edit-documents&#x27;, component: DocumentsAddComponent, data:{title:&#x27;Edit Documents&#x27;} },
+
+    { path: &#x27;poc&#x27;, component: PocComponent, data:{title:&#x27;Poc&#x27;} },
+    { path: &#x27;add-poc&#x27;, component: PocAddComponent, data:{title:&#x27;Add Poc&#x27;} },
+    { path: &#x27;edit-poc&#x27;, component: PocAddComponent, data:{title:&#x27;edit Poc&#x27;} },
+
+    { path: &#x27;review&#x27;, component: ReviewComponent, data:{title:&#x27;Review&#x27;} },
+    { path: &#x27;add-review&#x27;, component: ReviewAddComponent, data:{title:&#x27;Add Review&#x27;} },
+    { path: &#x27;view-pdf&#x27;, component: PdfComponent, data:{title:&#x27;Pdf&#x27;} },
+    { path: &#x27;view-comment&#x27;, component: ReviewAddComponent, data:{title:&#x27;view comment&#x27;} },
+    
+  
+  ]
+  
+@NgModule({
+    imports: [RouterModule.forChild(ROUTES)],
+    exports: [RouterModule],
+    providers: [],
+  })
+  export class ProjectRoutingModule {}</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'module';
+            var COMPODOC_CURRENT_PAGE_URL = 'ProjectRoutingModule.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

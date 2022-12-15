@@ -1,0 +1,1434 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Techxers documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">techxers documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  AdminvaluesComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/shared/pages/admin/adminvalues/adminvalues.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-adminvalues</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./adminvalues.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./adminvalues.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#common" >common</a>
+                            </li>
+                            <li>
+                                <a href="#data" >data</a>
+                            </li>
+                            <li>
+                                <a href="#master" >master</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#project" >project</a>
+                            </li>
+                            <li>
+                                <a href="#role" >role</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#route" >route</a>
+                            </li>
+                            <li>
+                                <a href="#temp" >temp</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#access" >access</a>
+                            </li>
+                            <li>
+                                <a href="#add" >add</a>
+                            </li>
+                            <li>
+                                <a href="#clearFilter" >clearFilter</a>
+                            </li>
+                            <li>
+                                <a href="#delete" >delete</a>
+                            </li>
+                            <li>
+                                <a href="#edit" >edit</a>
+                            </li>
+                            <li>
+                                <a href="#filter" >filter</a>
+                            </li>
+                            <li>
+                                <a href="#find" >find</a>
+                            </li>
+                            <li>
+                                <a href="#getAllMasters" >getAllMasters</a>
+                            </li>
+                            <li>
+                                <a href="#getStatus" >getStatus</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#view" >view</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(route: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, common: <a href="../injectables/CommonService.html" target="_self">CommonService</a>, project: <a href="../injectables/ProjectService.html" target="_self">ProjectService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>common</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CommonService.html" target="_self" >CommonService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>project</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ProjectService.html" target="_self" >ProjectService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="access"></a>
+                    <span class="name">
+                        <span ><b>access</b></span>
+                        <a href="#access"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>access()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="22"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:22</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="add"></a>
+                    <span class="name">
+                        <span ><b>add</b></span>
+                        <a href="#add"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>add(grp: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="32"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:32</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>grp</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearFilter"></a>
+                    <span class="name">
+                        <span ><b>clearFilter</b></span>
+                        <a href="#clearFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clearFilter()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="60"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:60</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="delete"></a>
+                    <span class="name">
+                        <span ><b>delete</b></span>
+                        <a href="#delete"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>delete(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="35"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:35</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="edit"></a>
+                    <span class="name">
+                        <span ><b>edit</b></span>
+                        <a href="#edit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>edit(grp: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="26"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:26</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>grp</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filter"></a>
+                    <span class="name">
+                        <span ><b>filter</b></span>
+                        <a href="#filter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filter()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="54"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:54</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="find"></a>
+                    <span class="name">
+                        <span ><b>find</b></span>
+                        <a href="#find"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>find(items: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, text: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="65"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:65</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>items</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>text</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllMasters"></a>
+                    <span class="name">
+                        <span ><b>getAllMasters</b></span>
+                        <a href="#getAllMasters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAllMasters()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="45"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:45</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getStatus"></a>
+                    <span class="name">
+                        <span ><b>getStatus</b></span>
+                        <a href="#getStatus"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getStatus(status: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank">boolean</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="75"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:75</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>status</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>&quot;Active&quot; | &quot;Inactive&quot;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="17"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:17</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="view"></a>
+                    <span class="name">
+                        <span ><b>view</b></span>
+                        <a href="#view"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>view(grp: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="29"
+                            class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:29</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>grp</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="common"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>common</b></span>
+                        <a href="#common"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/CommonService.html" target="_self" >CommonService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="data"></a>
+                    <span class="name">
+                        <span ><b>data</b></span>
+                        <a href="#data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:12</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="master"></a>
+                    <span class="name">
+                        <span ><b>master</b></span>
+                        <a href="#master"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="project"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>project</b></span>
+                        <a href="#project"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/ProjectService.html" target="_self" >ProjectService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="role"></a>
+                    <span class="name">
+                        <span ><b>role</b></span>
+                        <a href="#role"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="route"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>route</b></span>
+                        <a href="#route"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="temp"></a>
+                    <span class="name">
+                        <span ><b>temp</b></span>
+                        <a href="#temp"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/shared/pages/admin/adminvalues/adminvalues.component.ts:13</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { CommonService } from &#x27;src/app/providers/common.service&#x27;;
+import { ProjectService } from &#x27;src/app/providers/project/project.service&#x27;;
+
+@Component({
+  selector: &#x27;app-adminvalues&#x27;,
+  templateUrl: &#x27;./adminvalues.component.html&#x27;,
+  styleUrls: [&#x27;./adminvalues.component.scss&#x27;]
+})
+export class AdminvaluesComponent implements OnInit {
+  data:any;
+  temp: any;
+  master:any;
+  role: any;
+  constructor( public route: Router, public common:CommonService, public project:ProjectService) { }
+  ngOnInit(): void {
+    this.getAllMasters();
+    this.access();
+  }
+   
+  access() {
+    this.role &#x3D; this.common.screenRole(&quot;adminvalues&quot;);
+    
+  }
+  edit(grp:any){
+    this.route.navigateByUrl(&#x27;/dashboard/admin/ddl-add/&#x27;+grp.id+&#x27;&#x27;, { state: { data: grp, flag: &quot;edit&quot; } });
+  }
+  view(grp:any){
+    this.route.navigateByUrl(&#x27;/dashboard/admin/ddl/&#x27;+grp.id+&#x27;?view&#x3D;true&#x27;, { state: { data: grp, flag: &quot;edit&quot; } });
+  }
+  add(grp:any){
+    this.route.navigateByUrl(&#x27;/dashboard/admin/ddl/&#x27;+grp.id+&#x27;&#x27;, { state: { data: grp, flag: &quot;edit&quot; } });
+  }
+  delete(data: any) {
+    if (confirm(&quot;Are you sure you want to delete this record?&quot;) &#x3D;&#x3D; true) {
+      let deleteId &#x3D; {&quot;id&quot;:data.id}
+      this.common.deleteMaster(deleteId, &quot;deleteMaster&quot;).subscribe((resp) &#x3D;&gt; {
+        if (resp) {
+          this.getAllMasters();
+        }
+      });
+    }
+  }
+  getAllMasters(){
+    this.common.getAllMaster().subscribe((resp) &#x3D;&gt; {
+      if (resp) {
+        
+        this.data &#x3D; resp.data.sort((a: { id: number; },b: { id: number; }) &#x3D;&gt; b.id - a.id);
+        this.temp &#x3D; this.data;
+      }
+    });
+  }
+  filter(){
+    if(this.master){
+      this.data &#x3D; this.find(this.temp, this.master?.toLowerCase());
+      this.project.trigger(&#x27;onFilterApply&#x27;);
+    }
+  }
+  clearFilter(){
+    this.master &#x3D; &quot;&quot;;
+    this.data &#x3D; this.temp;
+    this.project.trigger(&#x27;onFilterApply&#x27;);
+  }
+  find(items: any, text: any) {
+    text &#x3D; text.split(&#x27; &#x27;);
+    return items.filter((item: { masterValue: any | any[]; }) &#x3D;&gt; {
+      return text.every((el: any) &#x3D;&gt; {
+        let result &#x3D; item.masterValue;
+        let caps &#x3D; result.toLowerCase()
+        return caps?.includes(el);
+      });
+    });
+  }
+  getStatus(status:boolean){    
+    if(status &#x3D;&#x3D; true){
+      return &quot;Active&quot;;
+    }
+    else{
+      return &quot;Inactive&quot;;
+    }
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ng-container *ngIf&#x3D;&quot;!role.auth&quot;&gt;
+  &lt;section class&#x3D;&quot;noaccess&quot;&gt;
+    &lt;div class&#x3D;&quot;container&quot;&gt;
+      &lt;div class&#x3D;&quot;row&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-12 tl&quot;&gt;
+          &lt;nav class&#x3D;&quot;tl&quot;&gt;
+            &lt;strong&gt;
+              You don&#x27;t have any authorization to view this page!
+            &lt;/strong&gt;
+          &lt;/nav&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/ng-container&gt;
+&lt;ng-container *ngIf&#x3D;&quot;role.auth&quot;&gt;
+  &lt;app-page-header [title]&#x3D;&quot;&#x27;Admin Values&#x27;&quot; [breadcumbs]&#x3D;&quot;[{
+  name : &#x27;Master Values&#x27; ,
+  link : &#x27;/dashboard/admin/master-values&#x27;
+}]&quot; [hasFilter]&#x3D;&quot;true&quot;&gt;
+    &lt;div class&#x3D;&quot;filterForm&quot; pageFilter&gt;
+      &lt;form class&#x3D;&quot;filterForm&quot;&gt;
+        &lt;div class&#x3D;&quot;formInput&quot;&gt;
+          &lt;input class&#x3D;&quot;input2 mr15&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;Master&quot; [(ngModel)]&#x3D;&quot;master&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;filterFormAction&quot;&gt;
+          &lt;button class&#x3D;&quot;btn2 mr15&quot; type&#x3D;&quot;button&quot; (click)&#x3D;&quot;filter()&quot;&gt;Filter&lt;/button&gt;
+          &lt;a class&#x3D;&quot;clrflrt&quot; (click)&#x3D;&quot;clearFilter()&quot;&gt;Clear&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;actions&quot; headerActions&gt;
+      &lt;ng-container *ngIf&#x3D;&quot;role.roles[0].add&quot;&gt;
+        &lt;button routerLink&#x3D;&quot;/dashboard/admin/ddl-add/0&quot; class&#x3D;&quot;btton-bordered&quot;&gt; Add New Master&lt;/button&gt;
+      &lt;/ng-container&gt;
+    &lt;/div&gt;
+  &lt;/app-page-header&gt;
+
+
+  &lt;section class&#x3D;&quot;tabSec&quot;&gt;
+    &lt;div class&#x3D;&quot;container-fluid&quot;&gt;
+      &lt;div class&#x3D;&quot;row&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+          &lt;div class&#x3D;&quot;card1 tabCard&quot;&gt;
+            &lt;div class&#x3D;&quot;tabForm&quot;&gt;
+              &lt;div class&#x3D;&quot;row&quot;&gt;
+                &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+                  &lt;div class&#x3D;&quot;DatatableInner&quot;&gt;
+                    &lt;strong style&#x3D;&quot;padding:20px; display:block;&quot; *ngIf&#x3D;&quot;data?.length&#x3D;&#x3D;0&quot;&gt;No data found!&lt;/strong&gt;
+                    &lt;table class&#x3D;&quot;table table-sm row-border hover&quot; *ngIf&#x3D;&quot;data?.length&gt;0&quot;&gt;
+                      &lt;thead&gt;
+                        &lt;tr&gt;
+                          &lt;th&gt;ID&lt;/th&gt;
+                          &lt;th&gt;Master&lt;/th&gt;
+                          &lt;th&gt;Status&lt;/th&gt;
+                          &lt;th class&#x3D;&quot;tr&quot;&gt;Actions&lt;/th&gt;
+                        &lt;/tr&gt;
+                      &lt;/thead&gt;
+                      &lt;tbody&gt;
+                        &lt;tr *ngFor&#x3D;&quot;let group of data&quot;&gt;
+                          &lt;td&gt;{{ group.id }}&lt;/td&gt;
+                          &lt;td&gt;{{ group.masterValue }}&lt;/td&gt;
+                          &lt;td&gt;{{ getStatus(group.status) }}&lt;/td&gt;
+                          &lt;td class&#x3D;&quot;tr&quot;&gt;
+                            &lt;ng-container *ngIf&#x3D;&quot;role.roles[0].edit&quot;&gt;
+                              &lt;img alt&#x3D;&quot;actionicon&quot; src&#x3D;&quot;assets\img\icons\edit.svg&quot; (click)&#x3D;&quot;edit(group)&quot;&gt;
+                            &lt;/ng-container&gt;
+                            &lt;ng-container *ngIf&#x3D;&quot;role.roles[0].delete&quot;&gt;
+                              &lt;img alt&#x3D;&quot;actionicon&quot; src&#x3D;&quot;assets\img\icons\delet.svg&quot; (click)&#x3D;&quot;delete(group)&quot;&gt;
+                            &lt;/ng-container&gt;
+                            &lt;ng-container *ngIf&#x3D;&quot;role.roles[0].view&quot;&gt;
+                              &lt;img alt&#x3D;&quot;actionicon&quot; src&#x3D;&quot;assets\img\icons\visible.svg&quot; (click)&#x3D;&quot;view(group)&quot;&gt;
+                            &lt;/ng-container&gt;
+                            &lt;ng-container *ngIf&#x3D;&quot;role.roles[0].add&quot;&gt;
+                              &lt;img alt&#x3D;&quot;actionicon&quot; src&#x3D;&quot;assets/img/icons/add.svg&quot; (click)&#x3D;&quot;add(group)&quot;&gt;
+                            &lt;/ng-container&gt;
+                          &lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/tbody&gt;
+                    &lt;/table&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/ng-container&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./adminvalues.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">table {
+  color: var(--textPrimary);
+  th {
+    background-color: #f1f2f4;
+     
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+  }
+  td {
+     
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    img {
+      cursor: pointer;
+    }
+  }
+}
+form.filterForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tabSec .tabCard {
+  padding: 25px 25px;
+}
+.filterForm {
+  padding: 15px;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ng-container *ngIf="!role.auth">  <section class="noaccess">    <div class="container">      <div class="row">        <div class="col-md-12 tl">          <nav class="tl">            <strong>              You don\'t have any authorization to view this page!            </strong>          </nav>        </div>      </div>    </div>  </section></ng-container><ng-container *ngIf="role.auth">  <app-page-header [title]="\'Admin Values\'" [breadcumbs]="[{  name : \'Master Values\' ,  link : \'/dashboard/admin/master-values\'}]" [hasFilter]="true">    <div class="filterForm" pageFilter>      <form class="filterForm">        <div class="formInput">          <input class="input2 mr15" type="text" placeholder="Master" [(ngModel)]="master">        </div>        <div class="filterFormAction">          <button class="btn2 mr15" type="button" (click)="filter()">Filter</button>          <a class="clrflrt" (click)="clearFilter()">Clear</a>        </div>      </form>    </div>    <div class="actions" headerActions>      <ng-container *ngIf="role.roles[0].add">        <button routerLink="/dashboard/admin/ddl-add/0" class="btton-bordered"> Add New Master</button>      </ng-container>    </div>  </app-page-header>  <section class="tabSec">    <div class="container-fluid">      <div class="row">        <div class="col-md-12">          <div class="card1 tabCard">            <div class="tabForm">              <div class="row">                <div class="col-md-12">                  <div class="DatatableInner">                    <strong style="padding:20px; display:block;" *ngIf="data?.length==0">No data found!</strong>                    <table class="table table-sm row-border hover" *ngIf="data?.length>0">                      <thead>                        <tr>                          <th>ID</th>                          <th>Master</th>                          <th>Status</th>                          <th class="tr">Actions</th>                        </tr>                      </thead>                      <tbody>                        <tr *ngFor="let group of data">                          <td>{{ group.id }}</td>                          <td>{{ group.masterValue }}</td>                          <td>{{ getStatus(group.status) }}</td>                          <td class="tr">                            <ng-container *ngIf="role.roles[0].edit">                              <img alt="actionicon" src="assets\img\icons\edit.svg" (click)="edit(group)">                            </ng-container>                            <ng-container *ngIf="role.roles[0].delete">                              <img alt="actionicon" src="assets\img\icons\delet.svg" (click)="delete(group)">                            </ng-container>                            <ng-container *ngIf="role.roles[0].view">                              <img alt="actionicon" src="assets\img\icons\visible.svg" (click)="view(group)">                            </ng-container>                            <ng-container *ngIf="role.roles[0].add">                              <img alt="actionicon" src="assets/img/icons/add.svg" (click)="add(group)">                            </ng-container>                          </td>                        </tr>                      </tbody>                    </table>                  </div>                </div>              </div>            </div>          </div>        </div>      </div>    </div>  </section></ng-container></div>'
+    var COMPONENTS = [{'name': 'ActivitiesComponent', 'selector': 'app-activities'},{'name': 'AddComponent', 'selector': 'app-add'},{'name': 'AddtargetComponent', 'selector': 'app-addtarget'},{'name': 'AddVillagesComponent', 'selector': 'app-add-villages'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminTabComponent', 'selector': 'app-admin-tab'},{'name': 'AdminvaluesComponent', 'selector': 'app-adminvalues'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AssigncrpAddComponent', 'selector': 'app-assigncrp-add'},{'name': 'AssigncrpComponent', 'selector': 'app-assigncrp'},{'name': 'AssigninterComponent', 'selector': 'app-assigninter'},{'name': 'AssignshgAddComponent', 'selector': 'app-assignshg-add'},{'name': 'AssignshgComponent', 'selector': 'app-assignshg'},{'name': 'AssigntargetComponent', 'selector': 'app-assigntarget'},{'name': 'AssignTComponent', 'selector': 'app-assign-t'},{'name': 'AssignUserRoleComponent', 'selector': 'app-assign-user-role'},{'name': 'AssignvillagesAddComponent', 'selector': 'app-assignvillages-add'},{'name': 'AssignvillagesComponent', 'selector': 'app-assignvillages'},{'name': 'BeneficiaryComponent', 'selector': 'app-beneficiary'},{'name': 'BlocklevelAddComponent', 'selector': 'app-blocklevel-add'},{'name': 'BlocklevelComponent', 'selector': 'app-blocklevel'},{'name': 'BlocktargetAddComponent', 'selector': 'app-blocktarget-add'},{'name': 'BlocktargetComponent', 'selector': 'app-blocktarget'},{'name': 'BreadcumbSecondaryComponent', 'selector': 'app-breadcumb-secondary'},{'name': 'BudgetComponent', 'selector': 'app-budget'},{'name': 'CentralAddComponent', 'selector': 'app-central-add'},{'name': 'CentralComponent', 'selector': 'app-central'},{'name': 'ComponentAddComponent', 'selector': 'app-component-add'},{'name': 'ComponentComponent', 'selector': 'app-component'},{'name': 'CrpComponent', 'selector': 'app-crp'},{'name': 'CrpTabComponent', 'selector': 'app-crp-tab'},{'name': 'CrptargetAddComponent', 'selector': 'app-crptarget-add'},{'name': 'CrptargetComponent', 'selector': 'app-crptarget'},{'name': 'CrpwiseAddComponent', 'selector': 'app-crpwise-add'},{'name': 'CrpwiseComponent', 'selector': 'app-crpwise'},{'name': 'DdFilterComponent', 'selector': 'app-dd-filter'},{'name': 'DdlAddComponent', 'selector': 'app-ddl-add'},{'name': 'DdlchildComponent', 'selector': 'app-ddlchild'},{'name': 'DdlvaluesComponent', 'selector': 'app-ddlvalues'},{'name': 'DetailsComponent', 'selector': 'app-details'},{'name': 'DisbursementAddComponent', 'selector': 'app-disbursement-add'},{'name': 'DisbursementComponent', 'selector': 'app-disbursement'},{'name': 'DistlevelAddComponent', 'selector': 'app-distlevel-add'},{'name': 'DistlevelComponent', 'selector': 'app-distlevel'},{'name': 'DocumentsAddComponent', 'selector': 'app-documents-add'},{'name': 'DocumentsComponent', 'selector': 'app-documents'},{'name': 'EventAddComponent', 'selector': 'app-event-add'},{'name': 'EventComponent', 'selector': 'app-event'},{'name': 'FundCardComponent', 'selector': 'app-fund-card'},{'name': 'FundComponent', 'selector': 'app-fund'},{'name': 'FundTabComponent', 'selector': 'app-fund-tab'},{'name': 'FundUtComponent', 'selector': 'app-fund-ut'},{'name': 'GeoComponent', 'selector': 'app-geo'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HeadwiseAddComponent', 'selector': 'app-headwise-add'},{'name': 'HeadwiseComponent', 'selector': 'app-headwise'},{'name': 'HistoryComponent', 'selector': 'app-history'},{'name': 'IncludeComponent', 'selector': 'app-include'},{'name': 'IndicatorsAddComponent', 'selector': 'app-indicators-add'},{'name': 'IndicatorsComponent', 'selector': 'app-indicators'},{'name': 'InterventionAddComponent', 'selector': 'app-intervention-add'},{'name': 'InterventionsComponent', 'selector': 'app-interventions'},{'name': 'KeyComponent', 'selector': 'app-key'},{'name': 'KpiComponent', 'selector': 'app-kpi'},{'name': 'KpiconfigComponent', 'selector': 'app-kpiconfig'},{'name': 'KpiTabComponent', 'selector': 'app-kpi-tab'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'NavComponent', 'selector': 'app-nav'},{'name': 'OtherComponent', 'selector': 'app-other'},{'name': 'OutcomeComponent', 'selector': 'app-outcome'},{'name': 'PageBreadcumbsComponent', 'selector': 'app-page-breadcumbs'},{'name': 'PageHeaderComponent', 'selector': 'app-page-header'},{'name': 'PagesComponent', 'selector': 'app-pages'},{'name': 'PageTabViewComponent', 'selector': 'app-page-tab-view'},{'name': 'PdfComponent', 'selector': 'app-pdf'},{'name': 'PocAddComponent', 'selector': 'app-poc-add'},{'name': 'PocComponent', 'selector': 'app-poc'},{'name': 'ProfileComponent', 'selector': 'app-profile'},{'name': 'ProjectComponent', 'selector': 'app-project'},{'name': 'ProjectInfoComponent', 'selector': 'app-project-info'},{'name': 'ReportComponent', 'selector': 'app-report'},{'name': 'ReviewAddComponent', 'selector': 'app-review-add'},{'name': 'ReviewComponent', 'selector': 'app-review'},{'name': 'RolesComponent', 'selector': 'app-roles'},{'name': 'ShgComponent', 'selector': 'app-shg'},{'name': 'StateAddComponent', 'selector': 'app-state-add'},{'name': 'StateComponent', 'selector': 'app-state'},{'name': 'TargetComponent', 'selector': 'app-target'},{'name': 'TargetTabComponent', 'selector': 'app-target-tab'},{'name': 'TrackinterComponent', 'selector': 'app-trackinter'},{'name': 'TrackKpiComponent', 'selector': 'app-track-kpi'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'UtilizationAddComponent', 'selector': 'app-utilization-add'},{'name': 'UtilizationComponent', 'selector': 'app-utilization'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'AdminvaluesComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AdminvaluesComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
