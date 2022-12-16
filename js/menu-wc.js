@@ -15,7 +15,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
         <nav>
             <ul class="list">
                 <li class="title">
-                    <a href="index.html" data-type="index-link">techxers documentation</a>
+                    <a href="index.html" data-type="index-link">
+                    <img src="../images/weblogo.jpg" />
+                    </a>
                 </li>
 
                 <li class="divider"></li>
@@ -38,11 +40,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                         <span class="icon ion-ios-list"></span>Dependencies
                                     </a>
                                 </li>
-                                <li class="link">
-                                    <a href="properties.html" data-type="chapter-link">
-                                        <span class="icon ion-ios-apps"></span>Properties
-                                    </a>
-                                </li>
+                               
                     </ul>
                 </li>
                     <li class="chapter modules">
@@ -706,18 +704,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </li>
                         </ul>
                     </li>
-                        <li class="chapter">
-                            <a data-type="chapter-link" href="routes.html"><span class="icon ion-ios-git-branch"></span>Routes</a>
-                        </li>
-                    <li class="chapter">
-                        <a data-type="chapter-link" href="coverage.html"><span class="icon ion-ios-stats"></span>Documentation coverage</a>
-                    </li>
+                       
                     <li class="divider"></li>
-                    <li class="copyright">
-                        Documentation generated using <a href="https://compodoc.app/" target="_blank">
-                            <img data-src="images/compodoc-vectorise.png" class="img-responsive" data-type="compodoc-logo">
-                        </a>
-                    </li>
+                   
             </ul>
         </nav>
         `);
